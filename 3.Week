@@ -1,3 +1,5 @@
+#Question1
+
 yil = input("Bir yil giriniz: ")
 
 if yil.isdigit():
@@ -13,7 +15,7 @@ if yil % 4 != 0 or (yil % 100 == 0 and yil % 400 != 0):
 else:
     print("Bu bir artik yildir.")
     
-    #Q2
+#Question2
     
 text = input("Bir text giriniz:")
 text.split()
